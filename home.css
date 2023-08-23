@@ -116,7 +116,7 @@ h3 {
 }
 .services {
   min-height: 300px;
-  background: rgb(0, 0, 0);
+  background: #d5b59a;
   color: rgb(255, 255, 255);
   padding: 32px 0;
   text-align: center;
@@ -162,16 +162,23 @@ main {
 main .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  
 }
 
 main .row .box {
-  width: 50%;
+  width: 40%;
   min-height: 350px;
   background: #d5b59a;
   background-size: cover;
   background-position: center;
   display: flex;
+  margin: 18px;
   align-items: flex-end;
+  border: #f9c896 5px solid;
+  border-radius: 10% 10% 0 0;
+
 }
 
 main .row .box p {
